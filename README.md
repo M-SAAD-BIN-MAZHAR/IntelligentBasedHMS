@@ -11,7 +11,7 @@ python -m venv virtualenirmentname
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-# ** FOR GITHUB **
+# **FOR GITHUB**
 
 ## Now to add changes in the GitHub
 ### Go to the original GitHub repo (for example):
