@@ -16,6 +16,10 @@ st.markdown("Select a module below:")
 
 col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
+col5, col6, col7 = st.columns([1, 2, 1])  # width ratios (optional)
+
+ 
+
 
 
 if col1.button("🩸 Health Prediction", use_container_width=True):
@@ -33,5 +37,8 @@ if col3.button("🧠 Image-Based Diagnosis", use_container_width=True):
 if col4.button("🤖 Medical Bot & AI Assistant", use_container_width=True):
    navigate_to_page("pages/medical_bot.py")
 
+with col6:
+    if st.button("🧠 Depression Tester", use_container_width=True):
+        navigate_to_page("pages/Depression.py")
  
 show_footer()
